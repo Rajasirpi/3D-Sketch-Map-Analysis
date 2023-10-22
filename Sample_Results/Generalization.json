@@ -1,0 +1,212 @@
+[
+    {
+        "BaseModel": {
+            "id": [
+                "13"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S10"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "14"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S11"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "0"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S1"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "6"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S6"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "4"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S4"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "9", 
+                "8"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S7"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "1"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S2"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "12"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S9"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "5"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S5"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "11", 
+                "10"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S8"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "2"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S0"
+            ]
+        }, 
+        "generalization": "collapse"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "3"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S3"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "17"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S14"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "15"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S12"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "BaseModel": {
+            "id": [
+                "16"
+            ]
+        }, 
+        "SketchModel": {
+            "id": [
+                "S13"
+            ]
+        }, 
+        "generalization": "No generalization"
+    }, 
+    {
+        "AdditionalStatistics": {
+            "RepeatedAlignIDs": 0, 
+            "NumberOfNoGeneralisations": 14, 
+            "NumberOfObjectsNotGeneralisedBaseMap": 20, 
+            "NoOfInstance": 0, 
+            "SketchMapLayerName": "SketchModel", 
+            "NumberOfObjectsGeneralisedBaseMap": 24, 
+            "NumberOfAlignedObjects": 15, 
+            "Numberofnonalignedbaseids": 3, 
+            "NumberOfGeneralisations": 1
+        }
+    }
+]

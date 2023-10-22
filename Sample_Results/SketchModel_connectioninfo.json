@@ -1,0 +1,166 @@
+{
+    "point_connections": {
+        "S10": [
+            {
+                "Extrusion ID": "S2", 
+                "Type": "Door"
+            }, 
+            {
+                "Extrusion ID": "S5", 
+                "Type": "Door"
+            }
+        ], 
+        "S11": [
+            {
+                "Extrusion ID": "S5", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "S3", 
+                "Type": "Nowall"
+            }
+        ], 
+        "S9": [
+            {
+                "Extrusion ID": "S5", 
+                "Type": "Door"
+            }
+        ], 
+        "S14": [
+            {
+                "Extrusion ID": "S13", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "S3", 
+                "Type": "Nowall"
+            }
+        ], 
+        "S12": [
+            {
+                "Extrusion ID": "S4", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "S13", 
+                "Type": "Nowall"
+            }
+        ]
+    }, 
+    "surface_connections": {
+        "Connection": [
+            "No connections found between surfaces in the layer."
+        ]
+    }, 
+    "inside_connections": {
+        "Connection": "No connection found between polysurfaces."
+    }, 
+    "connections_types": [
+        {
+            "Original id": "S6", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S13"
+                }
+            ]
+        }, 
+        {
+            "Original id": "S4", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S5"
+                }, 
+                {
+                    "Connection Type": "surface", 
+                    "id": "S3"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S13"
+                }
+            ]
+        }, 
+        {
+            "Original id": "S2", 
+            "Target ids": [
+                {
+                    "Connection Type": "surface", 
+                    "id": "S5"
+                }
+            ]
+        }, 
+        {
+            "Original id": "S5", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S4"
+                }, 
+                {
+                    "Connection Type": "surface", 
+                    "id": "S2"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S3"
+                }
+            ]
+        }, 
+        {
+            "Original id": "S0", 
+            "Target ids": [
+                {
+                    "Connection Type": "point", 
+                    "id": "S13"
+                }
+            ]
+        }, 
+        {
+            "Original id": "S3", 
+            "Target ids": [
+                {
+                    "Connection Type": "surface", 
+                    "id": "S4"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S5"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S13"
+                }
+            ]
+        }, 
+        {
+            "Original id": "S13", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S6"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S4"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "S0"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "S3"
+                }
+            ]
+        }
+    ], 
+    "stair_connections": {
+        "S1": {
+            "Connection": [
+                "ID S1 is inside ID S13"
+            ]
+        }
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "point_connections": {
+        "14": [
+            {
+                "Extrusion ID": "5", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "3", 
+                "Type": "Nowall"
+            }
+        ], 
+        "17": [
+            {
+                "Extrusion ID": "16", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "3", 
+                "Type": "Nowall"
+            }
+        ], 
+        "12": [
+            {
+                "Extrusion ID": "5", 
+                "Type": "Door"
+            }
+        ], 
+        "19": [
+            {
+                "Extrusion ID": "2", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "7", 
+                "Type": "Nowall"
+            }
+        ], 
+        "18": [
+            {
+                "Extrusion ID": "6", 
+                "Type": "Door"
+            }, 
+            {
+                "Extrusion ID": "7", 
+                "Type": "Door"
+            }
+        ], 
+        "15": [
+            {
+                "Extrusion ID": "16", 
+                "Type": "Nowall"
+            }, 
+            {
+                "Extrusion ID": "4", 
+                "Type": "Nowall"
+            }
+        ], 
+        "13": [
+            {
+                "Extrusion ID": "5", 
+                "Type": "Door"
+            }
+        ], 
+        "20": [
+            {
+                "Extrusion ID": "7", 
+                "Type": "Noceiling"
+            }
+        ], 
+        "21": [
+            {
+                "Extrusion ID": "2", 
+                "Type": "Noceiling"
+            }
+        ]
+    }, 
+    "surface_connections": {
+        "Connection": [
+            "No connections found between surfaces in the layer."
+        ]
+    }, 
+    "inside_connections": {
+        "Connection": "No connection found between polysurfaces."
+    }, 
+    "connections_types": [
+        {
+            "Original id": "5", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "4"
+                }, 
+                {
+                    "Connection Type": "surface", 
+                    "id": "1"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "3"
+                }
+            ]
+        }, 
+        {
+            "Original id": "4", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "5"
+                }, 
+                {
+                    "Connection Type": "surface", 
+                    "id": "3"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "16"
+                }
+            ]
+        }, 
+        {
+            "Original id": "6", 
+            "Target ids": [
+                {
+                    "Connection Type": "point", 
+                    "id": "2"
+                }, 
+                {
+                    "Connection Type": "surface", 
+                    "id": "7"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "16"
+                }
+            ]
+        }, 
+        {
+            "Original id": "1", 
+            "Target ids": [
+                {
+                    "Connection Type": "surface", 
+                    "id": "5"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "2"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "7"
+                }
+            ]
+        }, 
+        {
+            "Original id": "3", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "5"
+                }, 
+                {
+                    "Connection Type": "surface", 
+                    "id": "4"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "16"
+                }
+            ]
+        }, 
+        {
+            "Original id": "2", 
+            "Target ids": [
+                {
+                    "Connection Type": "point", 
+                    "id": "6"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "1"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "7"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "16"
+                }
+            ]
+        }, 
+        {
+            "Original id": "7", 
+            "Target ids": [
+                {
+                    "Connection Type": "surface", 
+                    "id": "6"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "1"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "2"
+                }
+            ]
+        }, 
+        {
+            "Original id": "16", 
+            "Target ids": [
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "4"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "6"
+                }, 
+                {
+                    "Connection Type": "edge or partial surface", 
+                    "id": "3"
+                }, 
+                {
+                    "Connection Type": "point", 
+                    "id": "2"
+                }
+            ]
+        }
+    ], 
+    "stair_connections": {
+        "A1": {
+            "Connection": [
+                "ID A1 is inside ID 2"
+            ]
+        }, 
+        "0": {
+            "Connection": [
+                "ID 0 is inside ID 16"
+            ]
+        }
+    }
+}
