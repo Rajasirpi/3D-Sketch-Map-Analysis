@@ -33,23 +33,23 @@
   ![Workflow](Workflow.png)
 
   ## Requirements
-  
+
   - Rhino software (Any version)
   - Python 3.6 or higher
  
   ## Usage
 
   Steps to run the scripts in the 'Analysis_Scripts' folder.
-  - Install Rhino software.
-  - Open the the 3d model (.3dm file) from the **'Sample_Rhinofile'** folder in Rhino.
-  - Then Check the layers and find the Original Map and Sketch map layer names, which want to be analysed.
-  - Next go to **'Tools'** in the top menu and click **'PhythonScript > Edit'**
-  - Now python editor will appear. Open up the **'Generalization.py and Connection_info.py'** file
-  - You can use **'Delete_floors.py'** when there are lots layer and you want to delete a particular attribute.
-  - There is no specific order to run the scripts. Every can ran independently.
-  - If You ran the **'Generlaization.py'** it will ask for BaseLayer and SketchLayer names in the Rhino UI. Once You Entered the layer name  it will give .Json file as result which contains alignment, genralization and satistics informations.
-  - If you ran the **'Connection_info.py'**. Unlike previous one it will ask for the one layer name. As result it will give another json file with connection informations such point connections, cuboid connections, surface conections and also it connection types (whether it shares edge, point or surface). You can enter the Layer name one by one get results of both sketch map and base map.
-  - And **'Final_Satistics.py'** is a script to collect the satistical info from the generalization results and convert it into CSV file. It can used if you have more genralization inputs.
+  - Begin by installing Rhino software.
+  - Open the 3d model (.3dm file) from the **'Sample_Rhinofile'** folder in Rhino.
+  - Examine the layers in the model and identify the Original Map and Sketch Map layer names that you wish to analyze.
+  - Access the **'Tools'** option in the top menu and select **'PythonScript > Edit'**.
+  - This will open the Python editor. Load the **'Generalization.py'** and **'Connection_info.py'** files within the editor.
+  - For scenarios with numerous layers where you want to delete specific attributes, consider using the **'Delete_floors.py'** script.
+  - Note that there is no prescribed order for running the scripts; each one can be executed independently.
+  - If you choose to run the **'Generalization.py'** script, it will prompt you in the Rhino UI to specify the BaseLayer and SketchLayer names. Once you enter these layer names, the script will generate a .json file containing alignment, generalization, and statistical data.
+  - Running the **'Connection_info.py'** script differs from the previous one. It will prompt you for a single layer name. As a result, it will produce another .json file containing connection details such as point connections, cuboid connections, surface connections, and connection types (indicating whether they share an edge, point, or surface). You can input the layer name separately to obtain results for both the sketch map and base map.
+  - Lastly, **'Final_Statistics.py'** is a script designed to consolidate statistical information from the generalization results and transform it into a CSV file. This script is useful when you have multiple generalization inputs.
 
   ## Reference
 
