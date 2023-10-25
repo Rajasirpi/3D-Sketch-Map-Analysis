@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 # Directory containing your JSON files
-json_files_directory = "C:/Users/sirpi/Desktop/Input 3d maps/results/Generalization/C2"
+json_files_directory = "path/to_generalization_results"
 
 # List to store extracted data
 extracted_data = []
@@ -43,7 +43,7 @@ df = pd.DataFrame(rows)
 print(df)
 
 # Define the CSV file path
-csv_file_path = "C:/Users/sirpi/Desktop/Input 3d maps/results/Extracted_Statistics_C2.csv"
+csv_file_path = "path/testStatistics.csv"
 
 # Write DataFrame to CSV
 df.to_csv(csv_file_path, index=False, sep=';')

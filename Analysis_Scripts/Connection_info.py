@@ -368,7 +368,7 @@ def generate_result():
     
     
     # Save the JSON data to a file
-    output_file = "C:/Users/sirpi/Desktop/Input 3d maps/results/connection/S1/{}.json".format(layer_name)
+    output_file = "{}.json".format(layer_name)
     with open(output_file, 'w') as file:
         file.write(json_result)
     

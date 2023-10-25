@@ -23,7 +23,7 @@ def delete_objects_with_attribute_value(attribute_name, attribute_value):
 
 # Specify the attribute name and value to filter by
 attribute_name = "ID"
-attribute_value = "101"
+attribute_value = "10"
 
 # Call the function
 delete_objects_with_attribute_value(attribute_name, attribute_value)

@@ -335,7 +335,7 @@ def generalization(layer_name_base, layer_name_sketch):
     # print(updated_json_res)
 
 #    # Save the JSON data to a file
-    output_file = "C:/Users/sirpi/Desktop/Input 3d maps/results/Generalization/C2/{}.json".format(layer_name_base)
+    output_file = "{}.json".format(layer_name_base)
     with open(output_file, 'w') as file:
         file.write(updated_json_res)
 
