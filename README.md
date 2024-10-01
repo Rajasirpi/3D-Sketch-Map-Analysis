@@ -53,6 +53,6 @@
 
   ## Reference
 
-  - "VResin: Scaffolding the Externalization of Spatial Memory in 3D Sketching" by Xiao et al. (under review) 
+  - "VResin: Externalizing spatial memory into 3D sketch maps" by Xiao et al. (https://doi.org/10.1016/j.ijhcs.2024.103322)
 
 
